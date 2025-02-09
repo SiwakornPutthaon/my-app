@@ -4,12 +4,23 @@ st.title('Siwakorn Putthanon, BDA')
 st.info('Business Data Analyst with KPI development, dashboard design, and customer behavior analysis')
 st.write('Hello world!')
 
-# Replace with your actual LinkedIn profile URL
-linkedin_url = "https://www.linkedin.com/in/siwakorn-putthanon"
+linkedin_url = "https://www.linkedin.com/in/siwakorn-putthanon/"
 
-if st.button("LinkedIn Profile"):
-    # JavaScript to open the URL in a new tab
-    js = f"window.open('{linkedin_url}', '_blank');"
-    # Inject the JavaScript code into the app
-    html = f"<script>{js}</script>"
-    st.markdown(html, unsafe_allow_html=True) 
+# สร้างกรอบด้วย HTML และ CSS
+st.markdown(
+    f"""
+    <div style="
+        border: 2px solid #0077b5; 
+        border-radius: 10px; 
+        padding: 20px; 
+        margin: 20px 0; 
+        background-color: #f9f9f9; 
+        text-align: center;">
+        <a href="{linkedin_url}" target="_blank" 
+           style="font-size: 20px; text-decoration: none; color: #0077b5;">
+           LinkedIn Profile
+        </a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
