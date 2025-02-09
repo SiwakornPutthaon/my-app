@@ -11,14 +11,14 @@ st.markdown(
     f"""
     <div style="
         border: 2px solid #0077b5; 
-        border-radius: 10px; 
-        padding: 20px; 
-        margin: 20px 0; 
+        border-radius: 5px; 
+        padding: 5px; 
+        margin: 5px 0; 
         background-color: #f9f9f9; 
         text-align: center;">
         <a href="{linkedin_url}" target="_blank" 
            style="font-size: 20px; text-decoration: none; color: #0077b5;">
-           LinkedIn Profile
+           Follow me on Linkedin
         </a>
     </div>
     """,
